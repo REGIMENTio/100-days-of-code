@@ -8,10 +8,10 @@ void main(){
     printf("ENTER 2=");
     scanf("%d",&b);
 
-    a=a^b;
+    a=a^b;//XOR operator works in binary
    
     b=b^a;
-     a=a^b;
+    a=a^b;
 
 
     printf("%d %d",a,b);
