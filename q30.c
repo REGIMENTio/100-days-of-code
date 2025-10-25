@@ -2,18 +2,22 @@
 #include<stdio.h>
 void main(){
 
-    int a,i,n;
+    int num=0,val,rev=0,n=0;
     printf("Enter digit");
-    scanf("%d",&a);
+    scanf("%d",&val);
 
-    n=10;
+    num=val;
 
-    
-    
-    for(n;a>i;n*10){
+    while(num>0){
 
-        i=a/n;
-        printf("%d",i);
-
+        n = num%10;
+        rev = rev*10 + n;
+        num = num/10;
+        
     }
+
+    printf("Your Number is %d",rev);
+    
+    
+   
 }

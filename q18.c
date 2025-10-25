@@ -6,7 +6,7 @@
 // below 60: Grade F.
 
 
-#include<stdio.h>\
+#include<stdio.h>
 
 void main(){
 

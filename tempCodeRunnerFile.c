@@ -1,12 +1,18 @@
-// Write a program to calculate library fine based on late days as follows:
-// First 5 days late: ₹2/day
-// Next 5 days late: ₹4/day
-// Next 20 days days late: ₹6/day
-// More than 30 days: Membership Cancelled.
-
+// Write a program to find the HCF (GCD) of two numbers.
 
 #include<stdio.h>
 
 void main(){
-    printf("Enter the days");
-    int a,fine,day;
+    int a,b,c,d;
+    printf("1st num");
+    scanf("%d",&a);
+
+    printf("2nd num");
+    scanf("%d",&b);
+
+    printf("Your HCF = ");
+
+    c=a;
+    d=b;
+
+    if(a>b){

@@ -5,26 +5,27 @@
 
 int bin(int a)
 {
-    int c, b, n;
-    n = 0;
-    for (n; a > pow(2, n + 1); n++)
+    int c, b, n, i,o;
+   
+    for (n = 0, i = 0; a >=pow(2, n); i++)
     {
         b = pow(2, n);
+        n=o;
+
+
+        for(o;a>=pow(2,n);o--){
+            if (a>=pow(2,o)){
+                printf("1");
+                a=a-pow(2,o);
+            }
+            else {
+                printf("0");
+            }
+        }   
+
     }
 
-    printf("1");
-
-    b = pow(2, n);
-
-    c = a - b;
-    if (c != 0 && c<b)
-    {
-        bin(c);
-        printf("0");
-    }
-   
-
-    return n;
+  
 }
 
 void main()
