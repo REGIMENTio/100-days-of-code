@@ -22,7 +22,7 @@ int main(){
 
  
     e=d*b+c*1+num-d*c-b;
-    printf("this is first digit %d\n this is last digit %d\nthis is the swapped number %d\n",c,b,e); 
+    printf("this is first digit %d\nthis is last digit %d\nthis is the swapped number %d\n",c,b,e); 
     
 
 
