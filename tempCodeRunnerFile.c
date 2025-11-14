@@ -1,33 +1,19 @@
-long fact(int n) {
-    if (n <= 1) {
-        return 1;
-    } 
-    else {
-    
-        return n * fact(n - 1); 
-    }
-}
+// Q48: Write a program to print the following pattern:
+// 1
+// 12
+// 123
+// 1234
+// 12345
 
-#include <stdio.h>
-void main(){
-    int a,b,c,d,e;
-    printf("\tEnter number to be checked=\t\n");
-    scanf("%d",&a);
-    b=a;
-    d=0;
-    
+// /*
+// Sample Test Cases:
+// Input 1:
 
-    while(a>9){
-        c=a%10;
-        a=a/10;
-        
+// Output 1:
+// 1
+// 12
+// 123
+// 1234
+// 12345
 
-        d = d + fact (c);
-
-    }
-
-    if (d==b)
-    printf("Number is strong");
-    else
-    printf("not strong");
-}
+// */
